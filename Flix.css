@@ -1,0 +1,101 @@
+body, section, article, main, aside,footer, img, nav, ul, li,a, h1,h2, h3, div,p, figure, figcaption{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: IBM Plex Sans;
+    src: url(IBM/IBMPlexSans-SemiBold.ttf);
+  }
+
+html {
+    width: 1280px;
+    height: 620px;
+    font-family: IBM Plex Sans;
+   
+}
+body {
+    background-color: #121214;
+    
+}
+
+
+.logo {
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
+    margin-left: 517px;
+    }
+
+.titulo {
+    width: 334px;
+    height: 42px;
+    margin-top: 50px;
+    margin-left: 460px;
+    font-weight: 600px;
+    font-size: 32px;
+    color: white;
+}
+
+
+section ul {
+    width: 700px;
+     display: flex;
+     margin-top: 53px;
+     list-style: none;
+     text-align: center;
+     justify-content: center;
+     margin-left: 300px;
+}
+
+
+
+.nomes {
+    color: white;
+    margin-top: 10px;
+}
+
+.perfil {
+    width: 160px;
+    height: 160px;
+}
+
+.perfil:hover {
+    cursor: pointer;
+}
+
+.box {
+    margin-right: 30px;
+}
+
+.gerenciar {
+    width: 206px;
+    height: 50px;
+    color: white;
+    background-color: #121214 ;
+    margin-top: 50px ;
+    margin-left: 520px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.gerenciar:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+figure {
+    overflow: hidden;
+    
+}
+
+img:hover {
+    transform:scale(1.2);
+}
+
